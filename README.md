@@ -1,7 +1,6 @@
 # Musical Smoke
 
-An audio visualizer that draws a plume of smoke that undulates and burning 
-embers that brighten as the audio swells.
+An audio visualizer that draws a plume of smoke that undulates to music and burning embers that brighten as the audio swells.
 
 ![](README-screenshot.png)
 
