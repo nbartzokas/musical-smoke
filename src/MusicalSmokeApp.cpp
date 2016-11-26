@@ -125,12 +125,12 @@ class MusicalSmokeApp : public App {
 #pragma mark Settings
     
     // toggles
-    bool showParams=true;
+    bool showParams=false;
     bool hiddenCursor=false;
     bool mDrawTextures = false;
     bool mDrawWireframe = false;
     bool mDrawOriginalMesh = false;
-    bool mEnableShader = false;
+    bool mEnableShader = true;
     
     // movement
     float dx = 0.005f; // speed of audio propegation across mesh
@@ -143,7 +143,7 @@ class MusicalSmokeApp : public App {
     Color mLineColor2 = Color(1,.8,.7);
     float mLineGapAlpha = 0.5;
     Color mFalloffColor = Color(0,0,0);
-    Color mVolumeColor = Color(1,0,0);
+    Color mVolumeColor = Color(1,1,1);
     
     // lines
     bool mEnableLines = false;
